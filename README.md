@@ -17,7 +17,7 @@ Para transformar datos brutos en una herramienta de planificación, se siguió e
 1. Data Wrangling: Limpieza profunda de la columna Species mediante regex para unificar nombres, y estandarización de fechas para extraer estacionalidad.
 2. EDA (Análisis Exploratorio de Datos): Identificación de "Hotspots" globales y patrones de migración.
 3. Filtrado MVP: Selección de los países con mayor densidad de registros y las especies más demandadas por el turismo subacuático.
-4. Métricas Clave (KPIs):
+4. Métricas Clave:
     * Índice de Densidad Histórica: Registros por rango temporal/localización.
     * Probabilidad Mensual de Avistamiento: Ratio de presencia histórica por mes en zonas específicas.
 
@@ -34,6 +34,5 @@ Próximos pasos
 
 Cómo replicar el proyecto
 1. Clonar el repositorio: git clone [tu-enlace-aquí]
-2. Instalar dependencias: pip install pandas matplotlib seaborn
+2. Instalar dependencias: pip install pandas, xlrd
 3. Ejecutar el Notebook: Abre shark_analysis_eda.ipynb para ver el proceso de limpieza y los gráficos resultantes.
-4. Dashboard: (Si tienes un PowerBI o Tableau) "Puedes consultar la visualización interactiva en el siguiente [enlace]".
