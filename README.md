@@ -11,19 +11,18 @@ Dataset
     * Date / Month: Temporalidad del avistamiento.
     * Country / Location: Geolocalización precisa.
     * Species: Identificación del espécimen (Filtrado para especies de interés turístico como el Gran Blanco, Toro, Tigre, etc.).
-    * Activity: Contexto del encuentro (filtrado para interacciones no accidentales o zonas de buceo).
 
 Proceso de análisis
 Para transformar datos brutos en una herramienta de planificación, se siguió este flujo:
 1. Data Wrangling: Limpieza profunda de la columna Species mediante regex para unificar nombres, y estandarización de fechas para extraer estacionalidad.
 2. EDA (Análisis Exploratorio de Datos): Identificación de "Hotspots" globales y patrones de migración.
-3. Filtrado MVP: Selección de los 5 países con mayor densidad de registros y las 5 especies más demandadas por el turismo subacuático.
+3. Filtrado MVP: Selección de los países con mayor densidad de registros y las especies más demandadas por el turismo subacuático.
 4. Métricas Clave (KPIs):
-    * Índice de Densidad Histórica: Registros por mes/localización.
+    * Índice de Densidad Histórica: Registros por rango temporal/localización.
     * Probabilidad Mensual de Avistamiento: Ratio de presencia histórica por mes en zonas específicas.
 
 Resultados / Insights (Ejemplos basados en tendencias comunes del dataset)
-* Estacionalidad Crítica: El análisis revela que viajar a destinos como Sudáfrica o Australia sin considerar el mes exacto reduce la probabilidad de avistamiento en un X%.
+* Estacionalidad Crítica: El análisis revela que viajar a destinos sin considerar el mes exacto reduce la probabilidad de avistamiento.
 * Especialización por Zona: Identificación de áreas donde la presencia de una especie (ej. Tiburón Tigre) es constante durante todo el año versus zonas migratorias.
 * Optimización de Costes: La app permite al usuario descartar destinos con registros históricos pobres, asegurando que la inversión en logística de buceo sea eficiente.
 
