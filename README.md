@@ -33,6 +33,6 @@ Próximos pasos
 * Escalabilidad: Ampliar el dataset a nivel global e incluir especies de macro-vida o mantas.
 
 Cómo replicar el proyecto
-1. Clonar el repositorio: git clone [tu-enlace-aquí]
+1. Clonar el repositorio: git clone [https://github.com/Albertovmt/Proyecto-Shark-Attacks.git]
 2. Instalar dependencias: pip install pandas, xlrd
 3. Ejecutar el Notebook: Abre shark_analysis_eda.ipynb para ver el proceso de limpieza y los gráficos resultantes.
